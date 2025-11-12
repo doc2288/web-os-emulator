@@ -1,1 +1,45 @@
-/* This is a placeholder for CSS. Full styling will be added after HTML structure is implemented. */
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+#desktop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+#taskbar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  z-index: 999;
+}
+#start-btn {
+  margin-left: 10px;
+}
+#desktop-icons {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-wrap: wrap;
+}
+#context-menu {
+  position: absolute;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 6px;
+  min-width: 120px;
+  z-index: 9999;
+  display: none;
+}
