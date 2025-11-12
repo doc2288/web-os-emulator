@@ -1,0 +1,1 @@
+// JS placeholder for OS emulator. Main application logic will be filled here after HTML/CSS structure is in place.
